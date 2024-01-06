@@ -1,0 +1,9 @@
+<header class="page-header">
+  {%- assign page_paths = site.header_pages -%}
+  <nav class="sitewide-nav">
+    {%- for cur_path in page_paths -%}
+      {%- assign cur_page = site.pages | where: "path", cur_path | first -%}
+      {% include components/page-link.html page=cur_page %}
+    {%- endfor -%}
+  </nav>
+</header>

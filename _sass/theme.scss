@@ -1,0 +1,35 @@
+/* Page defaults */
+$base-font-size: 1.5em;
+$page-background-color: oklch(100% 0 0);
+$content-background: white;
+
+/* Content */
+$content-background-size: 20mm 20mm;
+$content-background-image: radial-gradient();
+$content-background-fallback: #ffffff;
+
+/* Headers */
+$heading-background-color: black;
+$heading-foreground-color: white;
+
+/* Primary Navbar */
+$primary-nav-font-size: 100%;
+$primary-nav-padding: 1mm;
+$primary-nav-child-margin: 2mm;
+
+/* Page Links */
+$page-link-background-color: none;
+$page-link-foreground-color: black;
+$page-link-current-background-color: $page-link-foreground-color;
+$page-link-current-foreground-color: white;
+
+$page-link-padding: 1mm;
+
+/* Title Page */
+$title-block-indent: 3em;
+$title-font-size: 3em;
+$title-foreground-color: white;
+$title-background-color: black;
+$title-subtitle-space: 0.25em; // Relative to title
+$subtitle-foreground-color: white;
+$subtitle-background-color: black;

@@ -1,0 +1,17 @@
+---
+---
+
+/* Importing Impact Label font */
+@font-face {
+  font-family: "Impact Label Reversed";
+  src: url("../fonts/Impact Label Reversed.ttf");
+}
+
+/* Importing Inconsolata font */
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@400&display=swap");
+
+/* Importing normalize.css by Nicolas Gallagher and Jonathan Neal */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+
+/* Importing main css */
+@import "main";

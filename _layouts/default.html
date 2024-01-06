@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  <head>
+    <meta charset="utf-8" />
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
+  <body>
+    <div class="non-footer-wrapper">
+      {%- include header.html -%}
+      
+      <section class="main-content">{{ content }}</section>
+    </div>
+    
+    {%- include footer.html -%}
+
+  </body>
+</html>

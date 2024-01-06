@@ -1,0 +1,11 @@
+@mixin label($fg_color, $bg_color) {
+  font-family: "Impact Label Reversed";
+
+  /* Most embossing label makers require an additional space before and after text
+     to avoid issues with characters being cut off while trimming the label. */
+  padding-left: 1em;
+  padding-right: 1em;
+
+  color: $fg_color;
+  background-color: $bg-color;
+}

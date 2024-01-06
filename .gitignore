@@ -7,3 +7,5 @@ _site
 vendor
 # Ignore VS Code files
 .vscode
+# Ignore Obsidian files
+*/.obsidian

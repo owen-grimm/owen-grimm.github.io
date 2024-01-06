@@ -1,0 +1,7 @@
+<a
+    class="page-nav-link"
+    href="{{ include.page.url | relative_url }}"
+    {% if include.page.url == page.url %} aria-current="page" {% endif %}
+>
+    {{ include.page.title | escape }}
+</a>

@@ -21,15 +21,25 @@
 title: Owen Grimm
 email: grimm.owen@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Owen Grimm's personal website, blog, and project showcase.
+  My personal website, blog, and portfolio.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://owen-grimm.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+website_owner: Owen Grimm
 github_username: owen-grimm
 
+header_pages:
+  - index.md
+  - _pages/about.md
+  - _pages/blog.md
+
 # Build settings
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
+
+sass:
+  sass_dir: _sass
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -50,6 +60,8 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - README.md
+  - _posts/templates
+  - _posts/.obsidian
 
 include:
   - _pages
