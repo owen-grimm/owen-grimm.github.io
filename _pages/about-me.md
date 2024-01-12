@@ -13,3 +13,5 @@ I am currently in my second year of Mechatronic Engineering at the University of
 My hope for this blog is to share my projects and thoughts with the world, as well as to provide some more external motivation for myself to continue making, leveraging all the resources available to me, and last - but certainly not least - to have a little fun ;)
 
 If you want to know more about this blog, check out the [About This Blog][about-this-blog] page, or take a look at the first post on this blog in which I describe some of the technical details about creating it, some of the decision I made while making it, and some more reasoning about my personal motivations for starting it.
+
+[about-this-blog]: /about/blog
