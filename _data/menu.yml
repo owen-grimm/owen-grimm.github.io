@@ -1,0 +1,14 @@
+entries:
+  - title: about
+    entries:
+      - title: me
+        url: about/me
+      - title: blog
+        url: about/blog
+
+  - title: recent posts
+    post_list:
+      limit: 5
+      show_more: true
+      show_more_text: more posts...
+      show_more_url: error
