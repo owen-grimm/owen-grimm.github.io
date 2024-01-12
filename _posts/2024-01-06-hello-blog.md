@@ -23,7 +23,7 @@ With all that fantastic stuff I can work towards with a blog, I figured why not 
 ---
 {: data-content="the how"}
 
-The path I took in making this blog hasn't been a particularly straightforward, or efficient. Initially, my goal with this blog was as an exercise in full stack development, in which I would build a backend API (for serving blog posts, allowing me to post new blogs, and fetching media), a frontend website, and a hosting solution. After spending a day or two working on building a simple frontend, I decided (to put it kindly) that frontend development was not for me.
+The path I took in making this blog hasn't been particularly straightforward, or efficient. Initially, my goal with this blog was as an exercise in full stack development, in which I would build a backend API (for serving blog posts, allowing me to post new blogs, and fetching media), a frontend website, and a hosting solution. After spending a day or two working on building a simple frontend, I decided (to put it kindly) that frontend development was not for me.
 
 This process repeated a few times, each time with me raking in my expectations for what I would be able to add to the blog, and each time ending with the rediscovery of how little I enjoy working with CSS. Eventually, after this cycle had repeated enough, I took a step back and realized that my over-scoping of this project was keeping me from completing any portion of it. Not only that, but I wasn't working on the projects I actually enjoyed!
 
